@@ -23,7 +23,7 @@
 ## how to use:
 ### 1. gradle
 ```groovy
-    compile 'q.rorbin:badgeview:1.1.3'
+    implementation "com.github.RookieExaminer:BadgeView:Tag"
 ```
 VERSION_CODE : [here](https://github.com/qstumn/BadgeView/releases)
 
