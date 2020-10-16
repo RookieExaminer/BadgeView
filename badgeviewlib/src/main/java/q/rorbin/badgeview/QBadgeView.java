@@ -176,7 +176,9 @@ public class QBadgeView extends View implements Badge {
     @Override
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
-        if (mActivityRoot == null) findViewRoot(mTargetView);
+        if (mActivityRoot == null) {
+            findViewRoot(mTargetView);
+        }
     }
 
     private void findViewRoot(View view) {

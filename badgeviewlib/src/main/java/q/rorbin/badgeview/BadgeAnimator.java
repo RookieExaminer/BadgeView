@@ -85,7 +85,7 @@ public class BadgeAnimator extends ValueAnimator {
         return fragments;
     }
 
-    private class BitmapFragment {
+    private static class BitmapFragment {
         Random random;
         float x;
         float y;
